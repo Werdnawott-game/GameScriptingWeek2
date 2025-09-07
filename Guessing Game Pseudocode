@@ -1,0 +1,26 @@
+Guessing Game Pseudocode
+
+initilize ranNum 
+initilize inputNum
+initialize playGame as true
+initialize wonGame as false
+
+ranNum = rand(1,100)
+while (playGame is true)
+
+  for i = 0, i < 7, i++
+
+    while wonGame is false
+
+      get inputNum value from user
+
+      if inputNum = ranNum
+        print You won
+        set wonGame to true
+      else
+        print Incorrect try again
+  
+  ask if the user would like to play again
+  while resets if they do, breaks if they dont
+
+
